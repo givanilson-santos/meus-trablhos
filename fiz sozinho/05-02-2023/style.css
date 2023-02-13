@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+/* aqui  */
+ul{
+    background-color: grey;
+    list-style-type: none;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px black;
+  
+}
+
+li{
+    float: left; 
+    margin-left: 5px;
+    padding: 10px;
+
+}
+
+li a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: rgb(77, 77, 208);
+}
+
+li:hover, .terceira a:hover, .segunda-2 a:hover{
+    background-color:rgba(142, 139, 139, 0.589) ;
+    text-decoration: underline;
+    color: rgb(77, 77, 208);
+   
+}
+/* estilizando a lista que desse */
+.terceira{
+ 
+    position: absolute;
+}
+
+.terceira a{
+   height: auto;
+   width: auto;
+    padding: 10px 0px 10px 5px;
+    color: black;
+  display: none;
+  text-align: left;
+  
+  
+}
+.primeira:hover .terceira a{
+    display: block;
+    background-color: rgba(208, 220, 220, 0.662);
+    box-shadow: 1px 1px 4px black;
+}
+
+/* aqui esta a segunda coluna  */
+.segunda-2{
+
+    position: absolute;
+}
+.segunda-2 a{
+    height: auto;
+    width: auto;
+    padding: 10px 0px 10px 5px;
+     color: black;
+   display: none;
+   text-align: center;
+}
+
+
+.primeira-2:hover .segunda-2 a{
+    display: block;
+    background-color: rgba(208, 220, 220, 0.662);
+    box-shadow: 1px 1px 4px black;
+    text-align: center;
+}
+.conteiner{
+    display: flex;
+   border: dotted 1px;
+   margin: 80px 4px 4px 4px;
+ 
+}
+p{
+    margin: auto;
+    text-align: justify;
+    padding-right: 20px;
+   
+}
+div{ padding:5px ;
+margin: 5px;}
+
+
+

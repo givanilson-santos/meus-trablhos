@@ -1,0 +1,92 @@
+@media only screen and (max-width:425px) {
+    .style-h1{
+        color: rgb(23, 20, 20);
+        font-size: 20px;}
+        .menu-a > a{
+            text-decoration: none;
+            margin-left: 0%;
+            color: rgb(237, 237, 237);
+            border: 1px solid black;
+            font-size: small;
+        }
+        header{
+            background-color:#347f67 ;
+            height: auto;
+        }
+        .background-main{
+            background-color: white;
+            width: 250px;
+            margin: 0px auto 0px auto;
+            bottom: 2px solid black;
+            padding: 1%;
+        }
+        .iframe-video > iframe{
+            padding: 5% 10% 5% 5% ;
+    
+            width: 250px;
+            height: 100px;
+    }
+    .img-site{
+        width: 250px;
+        padding-right: 4%;}}
+
+    
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    .background-main{
+        background-color: white;
+        width: 300px;
+        margin: 0px auto 0px auto;
+        bottom: 2px solid black;
+        padding: 1%;
+    }
+    .iframe-video > iframe{
+        padding: 5% 10% 5% 5% ;
+
+        width: 300px;
+        height: 150px;
+}
+.img-site{
+    width: 300px;
+    padding-right: 4%;}}
+
+ /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) 
+@media only screen and (min-width: 600px) {...}
+
+ispostivos Médios (Tablets deitados, 768px para cima) 
+@media only screen and (min-width: 768px) {...}
+
+ Dispostivos Largos (laptops/desktops, 992px para cima) 
+@media only screen and (min-width: 992px) {...}
+
+ Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) 
+@media only screen and (min-width: 1200px) {...} */
+@media only screen and (min-width: 1200px) {
+    .background-main{
+        background-color: white;
+        width: 900px;
+        margin: 0px auto 0px auto;
+        bottom: 2px solid black;
+        padding: 1%;
+}
+.menu-a > a{
+    text-decoration: none;
+    margin-left: 5%;
+    color: rgb(237, 237, 237);
+    
+}
+
+
+
+.img-site{
+    width: 900px;
+    padding-right: 4%;}
+    .iframe-video > iframe{
+       margin: auto; 
+       padding-left: 18px;
+       width:900px ;
+       height: 500px;
+       display: flex;
+
+      }}
